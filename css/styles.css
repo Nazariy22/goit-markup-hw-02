@@ -83,7 +83,7 @@ letter-spacing: 0.02em;
 color:var(--link-cl)
 }
 
-.active:hover, a:active{
+.active:hover, :focus{
   background: #404BBF;
 }
 
