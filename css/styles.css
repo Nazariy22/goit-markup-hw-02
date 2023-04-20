@@ -61,7 +61,7 @@ list-style: none;
   |============================
 */
 .logo-link {
-  font-family: 'Raleway';
+  font-family:var(--second-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -87,7 +87,7 @@ color: var(--web-logo-cl)
 }
 
 
-.header-nav-link {
+.header-link {
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -97,28 +97,21 @@ letter-spacing: 0.02em;
 color:var(--link-cl)
 }
 
-a:hover, a:active{
+.active:hover, a:active{
   background: #404BBF;
 }
 
-.header-mail {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color:var(--address-cl);
+.header-address{
+  font-style: normal;
+
 }
 
-.header-number {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+
+.header-mail{
   color:var(--address-cl);
-  }
+}
 
 
-
-
+.header-number{
+  color:var(--address-cl);
+}
