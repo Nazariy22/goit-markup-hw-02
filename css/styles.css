@@ -7,10 +7,12 @@
 --main-tx-cl: #434455;
 --background-cl: #FFFFFF;
 --web-logo-cl: #2E2F42;
+--web-logo-light: #F4F4FD;
 --link-cl: #2E2F42;
 --address-cl:#434455;
 --activ-cl:#404BBF;
 --hero-cl:#FFFFFF;
+--logo-cl:#4D5AE5;
 }
 /**
   |============================
@@ -50,7 +52,7 @@ list-style: none;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: var(--logo-cl);
 }
 
 .web-logo {
@@ -155,4 +157,64 @@ color:var(--link-cl);
 }
 .about-desc {
   line-height: 1.5;
+}
+
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+
+.portfolio-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+color:var(--link-cl);
+}
+
+/**
+  |============================
+  | Team
+  |============================
+*/
+
+.team {
+  background: #F4F4FD
+}
+.team-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:var(--link-cl);
+}
+
+.team-img {
+  background-color: #FFFFFF;
+}
+.team-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:var(--link-cl);
+}
+.team-desc {
+  line-height: 1.5;
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.footer{
+  background-color: var(--link-cl);
+}
+
+
+.footer-logo{
+  color:var(--web-logo-light);
 }
