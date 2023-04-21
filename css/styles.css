@@ -89,11 +89,12 @@ color:var(--link-cl)
 .header-address{
   font-style: normal;
   line-height: 1.5;
+  color: var(--address-cl);
 
 }
 
 
-.header-mail{
+.header-link{
   color:var(--address-cl);
 }
 
@@ -105,9 +106,7 @@ color:var(--link-cl)
 
 
 
-.header-number{
-  color:var(--address-cl)
-}
+
 
 /**
   |============================
