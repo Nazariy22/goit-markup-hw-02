@@ -191,7 +191,7 @@ text-transform: capitalize;
 color:var(--link-cl);
 }
 
-.team-list {
+.team-list-item {
   background-color: #FFFFFF;
 }
 .team-name {
