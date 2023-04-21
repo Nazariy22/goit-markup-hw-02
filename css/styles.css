@@ -6,7 +6,6 @@
 /* Color */
 --main-tx-cl: #434455;
 --background-cl: #FFFFFF;
---web-logo-cl: #2E2F42;
 --web-logo-light: #F4F4FD;
 --link-cl: #2E2F42;
 --address-cl:#434455;
@@ -65,7 +64,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--web-logo-cl) 
+color: var(--link-cl) 
 }
 
 
@@ -76,12 +75,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--link-cl)
+color:var(--link-cl);
 }
 
 .header-link:hover,
 .header-link:focus{
-  color:var(--activ-cl)
+  color:var(--activ-cl);
 }
 
 
@@ -89,14 +88,8 @@ color:var(--link-cl)
 .header-address{
   font-style: normal;
   line-height: 1.5;
-  color: var(--address-cl);
-
 }
 
-
-.header-link{
-  color:var(--address-cl);
-}
 
 .header-mail:hover,
 .header-mail:focus{
