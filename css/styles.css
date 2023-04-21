@@ -88,8 +88,13 @@ color:var(--link-cl);
 .header-address{
   font-style: normal;
   line-height: 1.5;
+  color: var(--address-cl);
 }
 
+
+.header-address>.header-link{
+  color: var(--address-cl);
+}
 
 .header-mail:hover,
 .header-mail:focus{
@@ -128,6 +133,12 @@ letter-spacing: 0.04em;
 color:var(--hero-cl);
 cursor: pointer;
 }
+
+
+.address{
+  color: var(--address-cl);
+}
+
 
 .hero-btn:hover,
 .hero-btn:focus{
