@@ -9,6 +9,8 @@
 --web-logo-cl: #2E2F42;
 --link-cl: #2E2F42;
 --address-cl:#434455;
+--activ-cl:#404BBF;
+--hero-cl:#FFFFFF;
 }
 /**
   |============================
@@ -75,9 +77,12 @@ letter-spacing: 0.02em;
 color:var(--link-cl)
 }
 
-.active:hover, :focus{
-  background: #404BBF;
+.header-link:hover,
+.header-link:focus{
+  color:var(--activ-cl)
 }
+
+
 
 .header-address{
   font-style: normal;
@@ -89,6 +94,13 @@ color:var(--link-cl)
 .header-mail{
   color:var(--address-cl);
 }
+
+.header-mail:hover,
+.header-mail:focus{
+  color: var(--activ-cl);
+}
+
+
 
 
 .header-number{
@@ -109,7 +121,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color:var(--hero-cl);
 }
 
 .hero-btn {
@@ -119,6 +131,11 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color:var(--hero-cl);
 }
 
+.hero-btn:hover,
+.hero-btn:focus{
+color:var(--hero-cl);
+background-color: var(--activ-cl);
+}
