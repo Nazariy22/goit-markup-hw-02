@@ -125,6 +125,7 @@ body {
 
 .address {
   color: var(--address-cl);
+  font-weight: 400;
 }
 
 .hero-btn:hover,
@@ -201,6 +202,7 @@ body {
   |============================
 */
 .footer {
+  color: var(--web-logo-light);
   background-color: var(--link-cl);
 }
 
